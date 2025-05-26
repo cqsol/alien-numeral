@@ -16,9 +16,11 @@ document.addEventListener('DOMContentLoaded', function() {
         if (alienRegex.test(inputText)) {
             regexCheckElement.textContent = 'Valid Alien Numeral';
             regexCheckElement.style.color = 'green';
+            calculateButton.disabled = false;
         } else {
             regexCheckElement.textContent = 'Invalid Alien Numeral';
             regexCheckElement.style.color = 'red';
+            calculateButton.disabled = true;
         }
     });
 
