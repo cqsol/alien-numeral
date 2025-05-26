@@ -1,6 +1,11 @@
-# Alien Numeral Validator
+
+
+## Alien Numeral Validator
 
 A simple web application to validate Alien numerals using a regular expression and display a result.
+
+## Live Demo
+https://cqsol.github.io/alien-numeral/
 
 ## How to Use
 
@@ -19,3 +24,8 @@ A simple web application to validate Alien numerals using a regular expression a
     Result will show (e.g., 1994, 9)
 
 ## Screenshot
+Success:
+<img width="775" alt="image" src="https://github.com/user-attachments/assets/8c52fecb-24d8-41a4-9b10-403863adc845" />
+
+Fail:
+<img width="775" alt="image" src="https://github.com/user-attachments/assets/2ccf1f46-9f82-4882-a0b3-8755817dbc21" />
